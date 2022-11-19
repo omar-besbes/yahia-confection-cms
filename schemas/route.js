@@ -2,6 +2,7 @@ export default {
 	name: 'route',
 	title: 'Page',
 	type: 'document',
+	i18n: true,
 	fields: [
 		{
 			name: 'name',

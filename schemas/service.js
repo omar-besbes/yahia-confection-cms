@@ -2,6 +2,7 @@ export default {
 	name: 'service',
 	title: 'Service',
 	type: 'document',
+	i18n: true,
 	fields: [
 		{
 			name: 'title',

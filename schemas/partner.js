@@ -2,6 +2,7 @@ export default {
 	name: 'partner',
 	title: 'Partner',
 	type: 'document',
+	i18n: false,
 	fields: [
 		{
 			name: 'name',

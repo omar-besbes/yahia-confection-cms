@@ -1,0 +1,20 @@
+{
+  "base": "fr",
+  "languages": [
+    {
+      "id": "en",
+      "title": "English"
+    },
+    {
+      "id": "fr",
+      "title": "French"
+    }
+  ],
+  "idStructure": "delimiter",
+  "referenceBehavior": "strong",
+  "fieldNames": {
+    "lang": "__i18n_lang",
+    "references": "__i18n_refs",
+    "baseReference": "__i18n_base"
+  }
+}

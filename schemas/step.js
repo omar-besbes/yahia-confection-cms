@@ -2,6 +2,7 @@ export default {
 	name: 'step',
 	title: 'Step',
 	type: 'document',
+	i18n: true,
 	fields: [
 		{
 			name: 'icon',

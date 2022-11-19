@@ -2,6 +2,7 @@ export default {
 	name: 'product',
 	title: 'Product',
 	type: 'document',
+	i18n: true,
 	fields: [
 		{
 			name: 'name',

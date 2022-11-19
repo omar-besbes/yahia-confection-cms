@@ -2,6 +2,7 @@ export default {
 	name: 'strength',
 	title: 'Strength',
 	type: 'document',
+	i18n: true,
 	fields: [
 		{
 			name: 'title',

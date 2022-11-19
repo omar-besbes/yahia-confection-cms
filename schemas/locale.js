@@ -2,6 +2,7 @@ export default {
 	name: 'locale',
 	title: 'Language',
 	type: 'document',
+	i18n: false,
 	fields: [
 		{
 			name: 'name',
