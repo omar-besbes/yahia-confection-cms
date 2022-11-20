@@ -17,8 +17,7 @@ export default {
 		{
 			name: 'image',
 			title: 'Image',
-			type: 'reference',
-			to: [{type: 'image'}]
+			type: 'image'
 		},
 		{
 			name: 'text',

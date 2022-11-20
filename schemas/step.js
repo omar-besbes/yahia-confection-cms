@@ -22,19 +22,22 @@ export default {
 		{
 			name: 'children',
 			title: 'Steps',
-			type: 'object',
-			fields: [
-				{
-					name: 'video',
-					title: 'Video',
-					type: 'file'
-				},
-				{
-					name: 'step',
-					title: 'Step',
-					type: 'step'
-				}
-			],
+			type: 'array',
+			of: [{
+				type: 'object',
+				fields: [
+					{
+						name: 'video',
+						title: 'Video',
+						type: 'file'
+					},
+					{
+						name: 'step',
+						title: 'Step',
+						type: 'step'
+					}
+				]
+			}]
 		},
 	]
 }

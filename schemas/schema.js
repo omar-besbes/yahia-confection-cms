@@ -10,17 +10,23 @@ import partner from "./partner";
 import product from "./product";
 import service from "./service";
 import strength from "./strength";
+import figure from "./figure";
+import contactInfo from "./contactInfo";
+import bannerSlide from "./bannerSlide";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
-  name: 'default',
-  types: schemaTypes.concat([
-      step,
-      locale,
-      route,
-      partner,
-      product,
-      service,
-      strength
-  ]),
+	name: 'default',
+	types: schemaTypes.concat([
+		step,
+		locale,
+		route,
+		partner,
+		product,
+		service,
+		strength,
+		figure,
+		contactInfo,
+		bannerSlide
+	]),
 })
