@@ -12,7 +12,10 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/document-internationalization"
+    "@sanity/document-internationalization",
+    "@sanity/vision",
+    "vercel-deploy",
+    "@sanity/dashboard"
   ],
   "env": {
     "development": {
