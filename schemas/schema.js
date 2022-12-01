@@ -13,6 +13,7 @@ import strength from "./strength";
 import figure from "./figure";
 import contactInfo from "./contactInfo";
 import bannerSlide from "./bannerSlide";
+import social from "./social";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -27,6 +28,7 @@ export default createSchema({
 		strength,
 		figure,
 		contactInfo,
-		bannerSlide
+		bannerSlide,
+		social
 	]),
 })
